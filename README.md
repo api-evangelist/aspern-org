@@ -1,4 +1,4 @@
-# aspern-org
+# ASPERN
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aspern-org is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aspern.org/
+ASPERN provides independent financial intelligence for autonomous capital, aggregating evidence about agent‑managed vaults, capital flows, crowding, liquidation stress, and survivorship across blockchain networks. The platform offers real‑time data on vault holdings, transaction volumes, and risk metrics, enabling agents and investors to assess exposure and make informed decisions.
+
+**Areas:** Finance · Blockchain · AI · Data · Intelligence
+
+## ASPERN on APIs.io
+
+Everything profiled for ASPERN is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aspern-org/](https://apis.io/providers/aspern-org/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [ASPERN Account API](https://apis.io/apis/aspern-org/aspern-org-account-api/) — Your balance, quota, plans and this document.
+- [ASPERN Agents API](https://apis.io/apis/aspern-org/aspern-org-agents-api/) — The Agents API from ASPERN — 8 operation(s) for agents.
+- [ASPERN Alerts API](https://apis.io/apis/aspern-org/aspern-org-alerts-api/) — Watches you arm, and the webhooks they fire.
+- [ASPERN Attestation API](https://apis.io/apis/aspern-org/aspern-org-attestation-api/) — Whether a sequence is intact, checkable without trusting us.
+- [ASPERN Capital API](https://apis.io/apis/aspern-org/aspern-org-capital-api/) — The Capital API from ASPERN — 3 operation(s) for capital.
+- [ASPERN Commerce API](https://apis.io/apis/aspern-org/aspern-org-commerce-api/) — The Commerce API from ASPERN — 3 operation(s) for commerce.
+- [ASPERN Crowding API](https://apis.io/apis/aspern-org/aspern-org-crowding-api/) — The Crowding API from ASPERN — 1 operation(s) for crowding.
+- [ASPERN History API](https://apis.io/apis/aspern-org/aspern-org-history-api/) — Series over time. Every point is a measurement taken then, never a backfill of what we believe now.
+- [ASPERN Judgement API](https://apis.io/apis/aspern-org/aspern-org-judgement-api/) — Commit to a decision before executing, reveal it afterwards, and let anyone check the two match.
+- [ASPERN Market API](https://apis.io/apis/aspern-org/aspern-org-market-api/) — The market around a position, crowding, correlation, who leads and who follows.
+- [ASPERN Ratings API](https://apis.io/apis/aspern-org/aspern-org-ratings-api/) — What we think of a strategy. Free, the argument is worth more to us published than sold.
+- [ASPERN Record API](https://apis.io/apis/aspern-org/aspern-org-record-api/) — What each vault and operator actually did, read from the chain rather than reported to us.
+- [ASPERN Reference API](https://apis.io/apis/aspern-org/aspern-org-reference-api/) — The Reference API from ASPERN — 3 operation(s) for reference.
+- [ASPERN Risk API](https://apis.io/apis/aspern-org/aspern-org-risk-api/) — What a shock costs you: look-through exposure, liquidation distance, forced selling.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Aspern Org Webhooks](https://apis.io/asyncapis/aspern-org/aspern-org-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aspern Org Agentic Access](https://apis.io/agentic-access/aspern-org/aspern-org-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentProfile](https://apis.io/schemas/aspern-org/aspern-org-agent-profile/)
+- [CounterpartyCheck](https://apis.io/schemas/aspern-org/aspern-org-counterparty-check/)
+- [RevenueData](https://apis.io/schemas/aspern-org/aspern-org-revenue-data/)
+- [RwaData](https://apis.io/schemas/aspern-org/aspern-org-rwa-data/)
+- [ServiceData](https://apis.io/schemas/aspern-org/aspern-org-service-data/)
+- [TradingData](https://apis.io/schemas/aspern-org/aspern-org-trading-data/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aspern Org Context](https://apis.io/jsonld/aspern-org/aspern-org-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ASPERN API Rules](https://apis.io/rules/aspern-org/aspern-org-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aspern Org Authentication](https://apis.io/security/aspern-org/aspern-org-authentication/)
+- [Aspern Org Domain Security](https://apis.io/security/aspern-org/aspern-org-domain-security/)
+- [Aspern Org Vulnerability Disclosure](https://apis.io/security/aspern-org/aspern-org-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aspern.org/)
+- [Documentation](https://aspern.org/overview)
+- [Getting started](https://aspern.org/overview)
+- [API reference](https://aspern.org/api/v1/openapi.json)
+- [Pricing](https://aspern.org/pricing)
+- [Sign up](https://aspern.org/signup)
+- [Support](https://aspern.org/support)
+- [Changelog](https://aspern.org/changelog)
+- [Terms of service](https://aspern.org/terms)
+- [Privacy policy](https://aspern.org/privacy)
+- [Status](https://aspern.org/status)
+
+## API Evangelist rating
+
+**Kin Score 60.9** — strong · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 68.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 44.7 |
+
+**Agent readiness 50.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aspern-org/](https://apis.io/providers/aspern-org/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ASPERN: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aspern-org/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
